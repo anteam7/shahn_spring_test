@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import javax.swing.*;
 
-//SpringBootApplication 설정으로 스프링 빈, 자동설정이 가능해짐, 여기서부터 실행되므로 항상 최상단 위치할 필요
+//SpringBootApplication 설정으로 스프링 빈, 자동설정이 가능해짐, 여기서부터 실행되므로 항상 최상단 위치할 필요함
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
