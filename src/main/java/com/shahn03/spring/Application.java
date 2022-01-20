@@ -2,9 +2,11 @@ package com.shahn03.spring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 import javax.swing.*;
 
+@EnableJpaAuditing // JPA Auditing 활성화
 //SpringBootApplication 설정으로 스프링 빈, 자동설정이 가능해짐, 여기서부터 실행되므로 항상 최상단 위치할 필요함
 //패키지의 최상단에 클래스가 위치해야함***
 @SpringBootApplication
