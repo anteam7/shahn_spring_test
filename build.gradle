@@ -33,4 +33,7 @@ dependencies {
     implementation('org.projectlombok:lombok:1.18.22')
     implementation('pl.allegro.tech.boot:handlebars-spring-boot-starter:0.3.0')
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+
+    annotationProcessor('org.projectlombok:lombok')
+    testAnnotationProcessor('org.projectlombok:lombok')
 }
